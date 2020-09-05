@@ -4,4 +4,4 @@ tags={
 	"Culture"
 }
 name="Extra Meltingpots"
-supported_version="1.0.3"
+supported_version="1.*"
