@@ -1,0 +1,64 @@
+﻿angloirishdyn001 = {
+	name = "dynn_Barry"
+	culture = angloirish
+}
+angloirishdyn002 = {
+	name = "dynn_Bellew"
+	culture = angloirish
+}
+angloirishdyn003 = {
+	name = "dynn_Bermingham"
+	culture = angloirish
+}
+angloirishdyn004 = {
+	name = "dynn_Burke"
+	culture = angloirish
+}
+angloirishdyn005 = {
+	name = "dynn_Carew"
+	culture = angloirish
+}
+angloirishdyn006 = {
+	name = "dynn_Clare"
+	culture = angloirish
+}
+angloirishdyn007 = {
+	name = "dynn_Cogan"
+	culture = angloirish
+}
+angloirishdyn008 = {
+	name = "dynn_Dalton"
+	culture = angloirish
+}
+angloirishdyn009 = {
+	name = "dynn_Darcy"
+	culture = angloirish
+}
+angloirishdyn010 = {
+	name = "dynn_Delamere"
+	culture = angloirish
+}
+angloirishdyn011 = {
+	name = "dynn_Dillon"
+	culture = angloirish
+}
+angloirishdyn012 = {
+	prefix = "dynnp_fitz"
+	name = "dynn_Eustace"
+	culture = angloirish
+}
+angloirishdyn013 = {
+	prefix = "dynnp_fitz"
+	name = "dynn_Gerald"
+	culture = angloirish
+}
+angloirishdyn014 = {
+	prefix = "dynnp_fitz"
+	name = "dynn_Henry"
+	culture = angloirish
+}
+angloirishdyn015 = {
+	prefix = "dynnp_fitz"
+	name = "dynn_Maurice"
+	culture = angloirish
+}
