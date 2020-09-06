@@ -1,6 +1,6 @@
 ﻿l_english:
  EXMELPOT.3011.t:0 "Spread of [angloirish.GetNameNoTooltip] Culture"
- EXMELPOT.3011.desc:0 "The people of Ireland have given rise to a new culture in the aftermath of the recent regime change.\n\nNow it is clear that the people in the [county_to_change.GetName] no longer see themselves as [old_culture.GetName], but as native [angloirish.GetCollectiveNoun]!"
+ EXMELPOT.3011.desc:0 "The people of Ireland have given rise to a new culture in the aftermath of the recent regime change.\n\nNow it is clear that the people in the [county_to_change.GetName] no longer see themselves as [old_culture.GetName], but as the [angloirish.GetCollectiveNoun]!"
  EXMELPOT.3011.a:0 "An interesting development..."
 
  EXMELPOT.3012.a:0 "Wonderful!"
