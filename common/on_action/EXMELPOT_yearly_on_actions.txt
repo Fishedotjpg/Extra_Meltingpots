@@ -1,0 +1,9 @@
+﻿# Called from code once every three years for "playable" (count+) characters.
+# Root is the character
+three_year_playable_pulse = {
+	random_events = {
+		800 = 0
+		200 = EXMELPOT.3011
+		600 = EXMELPOT.3012
+	}
+}

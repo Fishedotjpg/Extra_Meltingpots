@@ -1,65 +1,22 @@
 ﻿namespace = EXMELPOT
 
-#########################################################################
-# Converting Greek, Baranis, Lombard and Italian to Sicilian 			#
-# by Petter Vilberg														#
-# EXMELPOT.3011-3012												#
-#########################################################################
-################################
-# Sicilian Spreads in Southern Italy
-# by Petter Vilberg
-################################
-scripted_trigger EXMELPOT_3011_valid_for_sicilian_culture_trigger = {
+scripted_trigger EXMELPOT_3011_valid_for_angloirish_culture_trigger = {
 	tier = tier_county
 	exists = holder
-	NOT = { exists = var:had_sicilian_county_conversion }
-	title_province = {
-		geographical_region = special_sicilian_culture_region
-	}
+	NOT = { exists = var:had_angloirish_county_conversion }
 	OR = {
 		AND = {
 			holder.culture = culture:norman
 			OR = {
-				culture = culture:baranis
-				culture = culture:greek
-				culture = culture:lombard
-				culture = culture:italian
+				culture = culture:irish
+				culture = culture:norseirish
 			}
 		}
 		AND = {
-			holder.culture = culture:baranis
+			holder.culture = culture:english
 			OR = {
-				culture = culture:norman
-				culture = culture:greek
-				culture = culture:lombard
-				culture = culture:italian
-			}
-		}
-		AND = {
-			holder.culture = culture:greek
-			OR = {
-				culture = culture:norman
-				culture = culture:baranis
-				culture = culture:lombard
-				culture = culture:italian
-			}
-		}
-		AND = {
-			holder.culture = culture:italian
-			OR = {
-				culture = culture:norman
-				culture = culture:baranis
-				culture = culture:lombard
-				culture = culture:greek
-			}
-		}
-		AND = {
-			holder.culture = culture:lombard
-			OR = {
-				culture = culture:norman
-				culture = culture:baranis
-				culture = culture:italian
-				culture = culture:greek
+				culture = culture:irish
+				culture = culture:norseirish
 			}
 		}
 	}
@@ -75,13 +32,10 @@ EXMELPOT.3011 = {
 	trigger = {
 		OR = {
 			culture = culture:norman
-			culture = culture:baranis
-			culture = culture:italian
-			culture = culture:lombard
-			culture = culture:greek
+			culture = culture:english
 		}
 		any_held_title = {
-			EXMELPOT_3011_valid_for_sicilian_culture_trigger = yes
+			EXMELPOT_3011_valid_for_angloirish_culture_trigger = yes
 		}		
 	}
 
@@ -96,14 +50,14 @@ EXMELPOT.3011 = {
 	immediate = {
 		random_held_title = {
 			limit = {
-				EXMELPOT_3011_valid_for_sicilian_culture_trigger = yes
+				EXMELPOT_3011_valid_for_angloirish_culture_trigger = yes
 			}
 			weight = { # Try to approximate organic spread
 				base = 1
 				modifier = {
 					add = 4
 					any_neighboring_county = {
-						culture = culture:sicilian
+						culture = culture:angloirish
 					}
 				}
 			}
@@ -112,46 +66,43 @@ EXMELPOT.3011 = {
 				save_scope_as = old_culture
 			}
 			set_variable = {
-				name = had_sicilian_county_conversion
+				name = had_angloirish_county_conversion
 				value = yes
 			}
 		}
-		culture:sicilian = {
-			save_scope_as = sicilian # For loc
+		culture:angloirish = {
+			save_scope_as = angloirish # For loc
 		}
-		debug_log = "Converted a province to Sicilian from EXMELPOT.3011"
+		debug_log = "Converted a province to Angloirish from EXMELPOT.3011"
 	}
 
 	option = {
 		name = EXMELPOT.3011.a
 		scope:county_to_change = {
-			set_county_culture = culture:sicilian
+			set_county_culture = culture:angloirish
 		}
 	}
 }
 
 
 ################################
-# Organic Spread of Sicilian for Sicilian Rulers
+# Organic Spread of Angloirish for Angloirish Rulers
 # by Petter Vilberg
 ################################
-scripted_trigger EXMELPOT_3012_valid_for_sicilian_culture_trigger = {
+scripted_trigger EXMELPOT_3012_valid_for_angloirish_culture_trigger = {
 	tier = tier_county
 	exists = holder
 	title_province = {
-		geographical_region = special_sicilian_culture_region
+		geographical_region = special_angloirish_culture_region
 	}
-	NOT = { exists = var:had_sicilian_county_conversion }
+	NOT = { exists = var:had_angloirish_county_conversion }
 	NOT = { culture = holder.culture } # No conversion for counties who match their holder's culture
 	OR = {
-		culture = culture:greek
-		culture = culture:norman
-		culture = culture:baranis
-		culture = culture:italian
-		culture = culture:lombard
+		culture = culture:irish
+		culture = culture:norseirish
 	}
 	any_neighboring_county = {
-		culture = culture:sicilian
+		culture = culture:angloirish
 	}
 }
 
@@ -163,34 +114,34 @@ EXMELPOT.3012 = {
 	left_portrait = root
 	
 	trigger = {
-		culture = culture:sicilian
+		culture = culture:angloirish
 		any_held_title = {
-			EXMELPOT_3012_valid_for_sicilian_culture_trigger = yes
+			EXMELPOT_3012_valid_for_angloirish_culture_trigger = yes
 		}
 	}
 
 	immediate = {
 		random_held_title = {
-			limit = { EXMELPOT_3012_valid_for_sicilian_culture_trigger = yes }
+			limit = { EXMELPOT_3012_valid_for_angloirish_culture_trigger = yes }
 			save_scope_as = county_to_change
 			culture = {
 				save_scope_as = old_culture
 			}
 			set_variable = {
-				name = had_sicilian_county_conversion
+				name = had_angloirish_county_conversion
 				value = yes
 			}
 		}
-		culture:sicilian = {
-			save_scope_as = sicilian # For loc
+		culture:angloirish = {
+			save_scope_as = angloirish # For loc
 		}
-		debug_log = "Converted a province to Sicilian from EXMELPOT.3012"
+		debug_log = "Converted a province to angloirish from EXMELPOT.3012"
 	}
 
 	option = {
 		name = EXMELPOT.3012.a
 		scope:county_to_change = {
-			set_county_culture = culture:sicilian
+			set_county_culture = culture:angloirish
 		}
 	}
 }

@@ -7,7 +7,7 @@
 	}
 	angloirish = {
 		graphical_cultures = {
-			english_coa_gfx
+			irish_coa_gfx
 		}
 		
 		color = { 0.8 0.38 0.38 }
@@ -58,16 +58,16 @@
 			{ "dynnp_fitz" "dynn_Maurice" }
 		}
 		
-		# Does not exist in 1066 - is the result of cultural amalgamation between Saxon and Norman through events
+		# Does not exist in 1066 - is the result of cultural amalgamation between Irish and Norman/English through events
 		male_names = {
-			14 = { # most common
-				William
+			10 = { # most common
+				Liam
 			}
 			8 = { # second most common
-				John
+				Seán Séamus
 			}
 			48 = { # other common names
-				Adam Geoffrey Henry Hugh Nicholas Peter Ralph Richard Robert Roger Simon Thomas Walter
+				Adhamh Geoffrey Henry Hugh Nicholas Peter Ralph Richard Robert Roger Simon Thomas Walter
 			}
 			30 = { # everything else
 				Alan Albert Alexander Alfred Andrew Anselm Arnold Arthur Aubrey Baldrick Christopher David Edmund Edward Eric Eustace Fulk George Gerald Gilbert
@@ -92,17 +92,21 @@
 		
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
-		mat_grf_name_chance = 10
-		father_name_chance = 25
+		mat_grf_name_chance = 15
+		father_name_chance = 15
 		
 		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 40
-		mother_name_chance = 5
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
 		
+		parent=norman
+		parent=english
+		parent=irish
+
 		ethnicities = {
-			25 = caucasian_blond
-			15 = caucasian_ginger
+			15 = caucasian_blond
+			25 = caucasian_ginger
 			35 = caucasian_brown_hair
 			25 = caucasian_dark_hair
 		}
