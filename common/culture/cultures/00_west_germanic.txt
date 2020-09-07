@@ -13,30 +13,51 @@
 		color = { 0.8 0.38 0.38 }
 
 		cadet_dynasty_names = {
-			{ "dynnp_de" "dynn_Bohun" }
-			{ "dynnp_de" "dynn_Vere" }
-			{ "dynnp_de" "dynn_Gand" }
-			"dynn_Myall"
-			{ "dynnp_de" "dynn_Turberville" }
-			{ "dynnp_de" "dynn_Holland" }
-			"dynn_Butler"
-			{ "dynnp_of" "dynn_Thornham" }
-			{ "dynnp_de" "dynn_Camville" }
-			"dynn_Breakspear"
-			{ "dynnp_of" "dynn_Itchington" }
-			{ "dynnp_of" "dynn_Northall" }
-			{ "dynnp_de" "dynn_Montagu" }
-			{ "dynnp_de" "dynn_Umfraville" }
-			"dynn_FitzPeter"
-			"dynn_Belles-mains"
-			{ "dynnp_of" "dynn_Warwick" }
-			"dynn_FitzAlan"
-			{ "dynnp_de" "dynn_Beauchamp" }
-			{ "dynnp_of" "dynn_Ilchester" }
-			{ "dynnp_de" "dynn_Raleigh" }
-			{ "dynnp_de" "dynn_Stratford" }
-			"dynn_Becket"
-			{ "dynnp_de" "dynn_la_Pole" }
+			{ "dynnp_of" "dynn_Dublin" }
+			{ "dynnp_of" "dynn_Wicklow" }
+			{ "dynnp_of" "dynn_Kildare" }
+			{ "dynnp_of" "dynn_Trim" }
+			{ "dynnp_of" "dynn_Drogheda" }
+			{ "dynnp_of" "dynn_Athlone" }
+			{ "dynnp_of" "dynn_Birr" }
+			{ "dynnp_of" "dynn_Uisneach" }
+			{ "dynnp_of" "dynn_Downpatrick" }
+			{ "dynnp_of" "dynn_Slemish" }
+			{ "dynnp_of" "dynn_Carrickfergus" }
+			{ "dynnp_of" "dynn_Dundalk" }
+			{ "dynnp_of" "dynn_Armagh" }
+			{ "dynnp_of" "dynn_Ardee" }
+			{ "dynnp_of" "dynn_Donegal" }
+			{ "dynnp_of" "dynn_Raphoe" }
+			{ "dynnp_of" "dynn_Fahan" }
+			{ "dynnp_of" "dynn_Derry" }
+			{ "dynnp_of" "dynn_Galway" }
+			{ "dynnp_of" "dynn_Castlebar" }
+			{ "dynnp_of" "dynn_Sligo" }
+			{ "dynnp_of" "dynn_Athenry" }
+			{ "dynnp_of" "dynn_Dromahair" }
+			{ "dynnp_of" "dynn_Belcoo" }
+			{ "dynnp_of" "dynn_Longford" }
+			{ "dynnp_of" "dynn_Cavan" }
+			{ "dynnp_of" "dynn_Wexford" }
+			{ "dynnp_of" "dynn_Enniscorthy" }
+			{ "dynnp_of" "dynn_Ferns" }
+			{ "dynnp_of" "dynn_Carlow" }
+			{ "dynnp_of" "dynn_Gowran" }
+			{ "dynnp_of" "dynn_Kilkenny" }
+			{ "dynnp_of" "dynn_Athy" }
+			{ "dynnp_of" "dynn_Carrick" }
+			{ "dynnp_of" "dynn_Limerick" }
+			{ "dynnp_of" "dynn_Ennis" }
+			{ "dynnp_of" "dynn_Nenagh" }
+			{ "dynnp_of" "dynn_Roscrea" }
+			{ "dynnp_of" "dynn_Waterford" }
+			{ "dynnp_of" "dynn_Emly" }
+			{ "dynnp_of" "dynn_Clonmel" }
+			{ "dynnp_of" "dynn_Tralee" }
+			{ "dynnp_of" "dynn_Cork" }
+			{ "dynnp_of" "dynn_Kinsale" }
+			{ "dynnp_of" "dynn_Baltimore" }
 		}
 
 		dynasty_names = {
@@ -56,6 +77,51 @@
 			{ "dynnp_fitz" "dynn_Gerald" }
 			{ "dynnp_fitz" "dynn_Henry" }
 			{ "dynnp_fitz" "dynn_Maurice" }
+			{ "dynnp_fitz" "dynn_Simons" }
+			{ "dynnp_fitz" "dynn_Stephen" }
+			"dynn_Gernon"
+			"dynn_Grace"
+			"dynn_Hussey"
+			"dynn_Keating"
+			"dynn_Lacy"
+			"dynn_Le_Poer"
+			"dynn_Marshall"
+			"dynn_Montmorency"
+			"dynn_Mortimer"
+			"dynn_Nangle"
+			"dynn_Petit"
+			"dynn_Prendergast"
+			"dynn_Purcell"
+			"dynn_Roche"
+			"dynn_Staunton"
+			"dynn_Taaffe"
+			"dynn_Talbot"
+			"dynn_Tuite"
+			"dynn_Tyrrell"
+			"dynn_Verdon"
+			"dynn_Vesey"
+			{ "dynnpat_pre_mac" "dynn_Costello" }
+			{ "dynnpat_pre_mac" "dynn_Stephen" }
+			{ "dynnpat_pre_mac" "dynn_William" }
+			{ "dynnpat_pre_mac" "dynn_Jordan" }
+			{ "dynnpat_pre_mac" "dynn_Wattin" }
+			{ "dynnpat_pre_mac" "dynn_Feorais" }
+			{ "dynnpat_pre_mac" "dynn_Peorais" }
+			{ "dynnpat_pre_mac" "dynn_Ruddery" }
+			{ "dynnpat_pre_mac" "dynn_Shere" }
+			{ "dynnpat_pre_mac" "dynn_Pierce" }
+			{ "dynnpat_pre_mac" "dynn_Thomas" }
+			{ "dynnpat_pre_mac" "dynn_Maurice" }
+			{ "dynnpat_pre_mac" "dynn_Patrick" }
+			{ "dynnpat_pre_mac" "dynn_Adam" }
+			{ "dynnpat_pre_mac" "dynn_Hugh" }
+			{ "dynnpat_pre_mac" "dynn_Roger" }
+			{ "dynnpat_pre_mac" "dynn_Arthur" }
+			{ "dynnpat_pre_mac" "dynn_David" }
+			{ "dynnpat_pre_mac" "dynn_Eric" }
+			{ "dynnpat_pre_mac" "dynn_Philip" }
+			{ "dynnp_fitz" "dynn_Philip" }
+			{ "dynnpat_pre_mac" "dynn_Laurence" }
 		}
 		
 		# Does not exist in 1066 - is the result of cultural amalgamation between Irish and Norman/English through events
@@ -124,57 +190,57 @@
 		color = { 0.8 0.2 0.2 }
 
 		cadet_dynasty_names = {
-			{ "dynnp_de" "dynn_Bohun" }
-			{ "dynnp_de" "dynn_Vere" }
-			{ "dynnp_de" "dynn_Gand" }
+			{ "dynnp_of" "dynn_Bohun" }
+			{ "dynnp_of" "dynn_Vere" }
+			{ "dynnp_of" "dynn_Gand" }
 			"dynn_Myall"
-			{ "dynnp_de" "dynn_Turberville" }
-			{ "dynnp_de" "dynn_Holland" }
+			{ "dynnp_of" "dynn_Turberville" }
+			{ "dynnp_of" "dynn_Holland" }
 			"dynn_Butler"
 			{ "dynnp_of" "dynn_Thornham" }
-			{ "dynnp_de" "dynn_Camville" }
+			{ "dynnp_of" "dynn_Camville" }
 			"dynn_Breakspear"
 			{ "dynnp_of" "dynn_Itchington" }
 			{ "dynnp_of" "dynn_Northall" }
-			{ "dynnp_de" "dynn_Montagu" }
-			{ "dynnp_de" "dynn_Umfraville" }
+			{ "dynnp_of" "dynn_Montagu" }
+			{ "dynnp_of" "dynn_Umfraville" }
 			"dynn_FitzPeter"
 			"dynn_Belles-mains"
 			{ "dynnp_of" "dynn_Warwick" }
 			"dynn_FitzAlan"
-			{ "dynnp_de" "dynn_Beauchamp" }
+			{ "dynnp_of" "dynn_Beauchamp" }
 			{ "dynnp_of" "dynn_Ilchester" }
-			{ "dynnp_de" "dynn_Raleigh" }
-			{ "dynnp_de" "dynn_Stratford" }
+			{ "dynnp_of" "dynn_Raleigh" }
+			{ "dynnp_of" "dynn_Stratford" }
 			"dynn_Becket"
-			{ "dynnp_de" "dynn_la_Pole" }
+			{ "dynnp_of" "dynn_la_Pole" }
 		}
 
 		dynasty_names = {
-			{ "dynnp_de" "dynn_Bohun" }
-			{ "dynnp_de" "dynn_Vere" }
-			{ "dynnp_de" "dynn_Gand" }
+			{ "dynnp_of" "dynn_Bohun" }
+			{ "dynnp_of" "dynn_Vere" }
+			{ "dynnp_of" "dynn_Gand" }
 			"dynn_Myall"
-			{ "dynnp_de" "dynn_Turberville" }
-			{ "dynnp_de" "dynn_Holland" }
+			{ "dynnp_of" "dynn_Turberville" }
+			{ "dynnp_of" "dynn_Holland" }
 			"dynn_Butler"
 			{ "dynnp_of" "dynn_Thornham" }
-			{ "dynnp_de" "dynn_Camville" }
+			{ "dynnp_of" "dynn_Camville" }
 			"dynn_Breakspear"
 			{ "dynnp_of" "dynn_Itchington" }
 			{ "dynnp_of" "dynn_Northall" }
-			{ "dynnp_de" "dynn_Montagu" }
-			{ "dynnp_de" "dynn_Umfraville" }
+			{ "dynnp_of" "dynn_Montagu" }
+			{ "dynnp_of" "dynn_Umfraville" }
 			"dynn_FitzPeter"
 			"dynn_Belles-mains"
 			{ "dynnp_of" "dynn_Warwick" }
 			"dynn_FitzAlan"
-			{ "dynnp_de" "dynn_Beauchamp" }
+			{ "dynnp_of" "dynn_Beauchamp" }
 			{ "dynnp_of" "dynn_Ilchester" }
-			{ "dynnp_de" "dynn_Raleigh" }
-			{ "dynnp_de" "dynn_Stratford" }
+			{ "dynnp_of" "dynn_Raleigh" }
+			{ "dynnp_of" "dynn_Stratford" }
 			"dynn_Becket"
-			{ "dynnp_de" "dynn_la_Pole" }
+			{ "dynnp_of" "dynn_la_Pole" }
 		}
 		
 		# Does not exist in 1066 - is the result of cultural amalgamation between Saxon and Norman through events
@@ -265,7 +331,7 @@
 			"dynn_Carew"
 			"dynn_Maddock"
 			"dynn_Fortescue"
-			{ "dynnp_de" "dynn_Ros" }
+			{ "dynnp_of" "dynn_Ros" }
 			"dynn_Howard"
 			"dynn_Maudit"
 			"dynn_Berkeley"
@@ -273,12 +339,12 @@
 			"dynn_Colvile"
 			"dynn_Grey"
 			"dynn_Darcy"
-			{ "dynnp_de" "dynn_Garlande" }
+			{ "dynnp_of" "dynn_Garlande" }
 			"dynn_Perry"
 			"dynn_Bethell"
 			"dynn_Perry"
 			"dynn_Borthwick"
-			{ "dynnp_de" "dynn_London" }
+			{ "dynnp_of" "dynn_London" }
 			{ "dynnp_of" "dynn_Hereford" }
 			{ "dynnp_of" "dynn_Gloucester" }
 			{ "dynnp_of" "dynn_Oxford" }
@@ -307,7 +373,7 @@
 			"dynn_Pudsey"
 			"dynn_Marshal"
 			"dynn_Rowe"
-			{ "dynnp_de" "dynn_Criel" }
+			{ "dynnp_of" "dynn_Criel" }
 			"dynn_Ciesla"
 			"dynn_Ross"
 			"dynn_Wuffing"
@@ -350,7 +416,7 @@
 			"dynn_Carew"
 			"dynn_Maddock"
 			"dynn_Fortescue"
-			{ "dynnp_de" "dynn_Ros" }
+			{ "dynnp_of" "dynn_Ros" }
 			"dynn_Howard"
 			"dynn_Maudit"
 			"dynn_Berkeley"
@@ -358,12 +424,12 @@
 			"dynn_Colvile"
 			"dynn_Grey"
 			"dynn_Darcy"
-			{ "dynnp_de" "dynn_Garlande" }
+			{ "dynnp_of" "dynn_Garlande" }
 			"dynn_Perry"
 			"dynn_Bethell"
 			"dynn_Perry"
 			"dynn_Borthwick"
-			{ "dynnp_de" "dynn_London" }
+			{ "dynnp_of" "dynn_London" }
 			{ "dynnp_of" "dynn_Hereford" }
 			{ "dynnp_of" "dynn_Gloucester" }
 			{ "dynnp_of" "dynn_Oxford" }
@@ -392,7 +458,7 @@
 			"dynn_Pudsey"
 			"dynn_Marshal"
 			"dynn_Rowe"
-			{ "dynnp_de" "dynn_Criel" }
+			{ "dynnp_of" "dynn_Criel" }
 			"dynn_Ciesla"
 			"dynn_Ross"
 			"dynn_Wuffing"
@@ -531,11 +597,11 @@
 		color = hsv{ 0.035 0.8 0.8 }
 
 		cadet_dynasty_names = {
-						{ "dynnp_de" "dynn_Kald" }
-			{ "dynnp_de" "dynn_la_Haya" }
-			{ "dynnp_de" "dynn_Lindsay" }
-			{ "dynnp_de" "dynn_Loudoun" }
-			{ "dynnp_de" "dynn_Ramsay" }
+						{ "dynnp_of" "dynn_Kald" }
+			{ "dynnp_of" "dynn_la_Haya" }
+			{ "dynnp_of" "dynn_Lindsay" }
+			{ "dynnp_of" "dynn_Loudoun" }
+			{ "dynnp_of" "dynn_Ramsay" }
 			{ "dynnp_of" "dynn_Angus" }
 			{ "dynnp_of" "dynn_Carrick" }
 			{ "dynnp_of" "dynn_Galloway" }
@@ -592,11 +658,11 @@
 		}
 
 		dynasty_names = {
-			{ "dynnp_de" "dynn_Kald" }
-			{ "dynnp_de" "dynn_la_Haya" }
-			{ "dynnp_de" "dynn_Lindsay" }
-			{ "dynnp_de" "dynn_Loudoun" }
-			{ "dynnp_de" "dynn_Ramsay" }
+			{ "dynnp_of" "dynn_Kald" }
+			{ "dynnp_of" "dynn_la_Haya" }
+			{ "dynnp_of" "dynn_Lindsay" }
+			{ "dynnp_of" "dynn_Loudoun" }
+			{ "dynnp_of" "dynn_Ramsay" }
 			{ "dynnp_of" "dynn_Angus" }
 			{ "dynnp_of" "dynn_Carrick" }
 			{ "dynnp_of" "dynn_Galloway" }
@@ -676,7 +742,7 @@
 			Murron Nuala Orabilia Peigi Rhonda Rodina Ronalda Ros Saundra Sheena Shona Slaine Sorcha Steacy Una
 		}
 		
-		dynasty_of_location_prefix = "dynnp_de"
+		dynasty_of_location_prefix = "dynnp_of"
 		prefix = yes
 		
 		patronym_prefix_male = "dynnpat_pre_Mc"
