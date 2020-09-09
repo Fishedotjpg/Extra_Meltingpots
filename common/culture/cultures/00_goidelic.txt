@@ -415,6 +415,7 @@
 	norseirish = {
 		graphical_cultures = {
 			irish_coa_gfx
+			northern_unit_gfx
 		}
 		
 		color = { 0.37 0.66 0.7 }
