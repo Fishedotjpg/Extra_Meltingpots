@@ -143,17 +143,17 @@
 			capital_province.culture = culture:anglo_saxon
 		}
 		modifier = {
-			factor = 50
+			factor = 75
 			has_culture = culture:norse
 			capital_province.culture = culture:anglo_norse
 		}
 		modifier = {
-			factor = 50
+			factor = 75
 			has_culture = culture:norse
 			capital_province.culture = culture:norseirish
 		}
 		modifier = {
-			factor = 50
+			factor = 75
 			OR = {
 				has_culture = culture:norman
 				has_culture = culture:english
