@@ -135,8 +135,11 @@
 	# Misc
 	culture = irish
 	religion = insular_celtic
-	
+
 	# History
+	1.1.1 = {
+		special_building_slot = dunamase_01
+	}
 	1000.1.1 = {
 	#	b_gowran = castle
 	#	b_kilkenny = city
