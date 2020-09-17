@@ -8,6 +8,22 @@
 		religion = catholic
 	}
 }
+# 10 - Raphoe
+10 = {	
+	# Misc
+	culture = irish
+	religion = insular_celtic
+	600.1.1 = {
+		holding = church_holding
+		buildings = {
+			temple_01
+			monastic_schools_01
+		}
+	}
+	1185.1.1 = {	#Norman invasion brings Catholic dominance.
+		religion = catholic
+	}
+}
 
 # 13 - SLEMISH
 13 = {	
@@ -92,7 +108,54 @@
 	1172.1.1 = { culture = angloirish }
 
 }
-
+# 30 - Kildare
+30 = {	
+	# Misc
+	culture = irish
+	religion = insular_celtic
+	600.1.1 = {
+		holding = church_holding
+		buildings = {
+			temple_01
+			monastic_schools_01
+		}
+	}
+	1185.1.1 = {	#Norman invasion brings Catholic dominance.
+		religion = catholic
+	}
+}
+# 31 - TRIM
+31 = {	
+	# Misc
+	culture = irish
+	religion = insular_celtic
+	600.1.1 = {
+		holding = church_holding
+		buildings = {
+			temple_01
+			monastic_schools_01
+		}
+	}
+	1185.1.1 = {	#Norman invasion brings Catholic dominance.
+		religion = catholic
+	}
+}
+# 33 - Birr
+33 = {	
+	# Misc
+	culture = irish
+	religion = insular_celtic
+	600.1.1 = {
+		holding = church_holding
+		buildings = {
+			temple_01
+			monastic_schools_01
+		}
+	}
+	1185.1.1 = {	#Norman invasion brings Catholic dominance.
+		religion = catholic
+	}
+}
 # 34 - ATHLONE
 34 = {	
 	# Misc
@@ -110,6 +173,22 @@
 	religion = insular_celtic
 
 	1169.1.1 = {	#Norman invasion brings Catholic dominance.
+		religion = catholic
+	}
+}
+# 41 - Kilkenny
+41 = {	
+	# Misc
+	culture = irish
+	religion = insular_celtic
+	600.1.1 = {
+		holding = church_holding
+		buildings = {
+			temple_01
+			monastic_schools_01
+		}
+	}
+	1185.1.1 = {	#Norman invasion brings Catholic dominance.
 		religion = catholic
 	}
 }
@@ -177,6 +256,16 @@
 48 = {	
 	culture = irish
 	religion = insular_celtic
+	1000.1.1 = {
+		holding = city_holding
+		buildings = {
+			city_01
+			guild_halls_01
+		}
+	}
+	1185.1.1 = {	#Norman invasion brings Catholic dominance.
+		religion = catholic
+	}
 }
 
 # 49 - WATERFORD
@@ -193,6 +282,22 @@
 		religion = catholic
 	}
 }
+# 50 - Emly
+50 = {	
+	# Misc
+	culture = irish
+	religion = insular_celtic
+	600.1.1 = {
+		holding = church_holding
+		buildings = {
+			temple_01
+			monastic_schools_01
+		}
+	}
+	1185.1.1 = {	#Norman invasion brings Catholic dominance.
+		religion = catholic
+	}
+}
 
 # 52 - TRALEE
 52 = {
@@ -200,6 +305,22 @@
 	religion = insular_celtic
 
 	1200.1.1 = {	#By the beginning of the 13th century, Insular Christianity was effectively fully integrated with Rome.
+		religion = catholic
+	}
+}
+# 53 - cork
+53 = {	
+	# Misc
+	culture = irish
+	religion = insular_celtic
+	1000.1.1 = {
+		holding = city_holding
+		buildings = {
+			city_01
+			guild_halls_01
+		}
+	}
+	1185.1.1 = {	#Norman invasion brings Catholic dominance.
 		religion = catholic
 	}
 }
